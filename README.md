@@ -6,7 +6,7 @@ A demonstration of turning the [SPARK paper](https://www.nature.com/articles/s41
 
 ```
 spark_agent/
-├── src/
+├── mcp/
 │   ├── SPARK_mcp.py              # MCP server entry point
 │   ├── requirements.txt          # Python dependencies
 │   ├── tools/                    # Python wrappers for R scripts
@@ -61,7 +61,7 @@ pip install fastmcp
 Install the SPARK MCP server using fastmcp:
 
 ```bash
-fastmcp install gemini-cli ./src/SPARK_mcp.py --with-requirements ./src/requirements.txt
+fastmcp install gemini-cli ./mcp/SPARK_mcp.py --with-requirements ./mcp/requirements.txt
 ```
 
 ### 6. Start the Agent
